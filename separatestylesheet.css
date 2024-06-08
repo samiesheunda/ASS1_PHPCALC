@@ -1,0 +1,55 @@
+form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    margin: 0 auto; /* Center form horizontally */
+    width: 50%; /* Set a fixed width for the form */
+    padding: 20px;
+    border-radius: 5px; /* Add a slight border radius */
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  fieldset {
+    border: 1px solid #ddd; /* Add a border to the fieldset */
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+ 
+  
+  input[type="number"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  select {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+
+  
+  
